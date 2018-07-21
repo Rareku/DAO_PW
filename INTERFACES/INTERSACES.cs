@@ -20,6 +20,7 @@ namespace INTERFACES
 			int Day { get; set; }
 			string Name { get; set; }
 			int Length { get; set; }
+
 		}
 	}
 }

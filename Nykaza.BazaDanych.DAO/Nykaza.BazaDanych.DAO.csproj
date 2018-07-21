@@ -58,6 +58,10 @@
       <Project>{2767342a-b02d-4e99-838d-b899f284791f}</Project>
       <Name>BL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\INTERFACES\INTERFACES.csproj">
+      <Project>{d5bbf3fc-9af0-4117-934d-d17619b88033}</Project>
+      <Name>INTERFACES</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -30,9 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Interfaces">
-      <HintPath>..\..\PW_LAB6\PW_LAB6\Properties\Interfaces.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -51,6 +48,13 @@
       <Project>{3660cde0-c2c4-424c-8798-ff8393873aea}</Project>
       <Name>AnimeNa</Name>
     </ProjectReference>
+    <ProjectReference Include="..\INTERFACES\INTERFACES.csproj">
+      <Project>{d5bbf3fc-9af0-4117-934d-d17619b88033}</Project>
+      <Name>INTERFACES</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -43,12 +43,6 @@
     <Compile Include="INTERSACES.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Anime\AnimeNa.csproj">
-      <Project>{3660cde0-c2c4-424c-8798-ff8393873aea}</Project>
-      <Name>AnimeNa</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
