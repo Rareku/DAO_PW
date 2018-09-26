@@ -18,6 +18,7 @@ namespace AnimeNamespace
 			Name = name;
 			Length = length;
 		}
+		public Anime(){}
 
 		public override string ToString()
 		{

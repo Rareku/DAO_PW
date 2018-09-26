@@ -1,0 +1,11 @@
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\ViewModel\bin\Debug\ViewModel.dll
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\ViewModel\bin\Debug\ViewModel.pdb
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\ViewModel\bin\Debug\Anime.dll
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\ViewModel\bin\Debug\BL.dll
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\ViewModel\bin\Debug\INTERFACES.dll
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\ViewModel\bin\Debug\Anime.pdb
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\ViewModel\bin\Debug\BL.pdb
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\ViewModel\bin\Debug\INTERFACES.pdb
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\ViewModel\obj\Debug\ViewModel.pdb

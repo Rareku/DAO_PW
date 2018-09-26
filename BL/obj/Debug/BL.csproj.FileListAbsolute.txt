@@ -1,0 +1,12 @@
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\BL\bin\Debug\BL.dll.config
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\BL\bin\Debug\BL.dll
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\BL\bin\Debug\BL.pdb
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\BL\bin\Debug\Anime.dll
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\BL\bin\Debug\DAO.dll
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\BL\bin\Debug\INTERFACES.dll
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\BL\bin\Debug\Anime.pdb
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\BL\bin\Debug\DAO.pdb
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\BL\bin\Debug\INTERFACES.pdb
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\BL\obj\Debug\BL.dll
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\BL\obj\Debug\BL.pdb
