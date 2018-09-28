@@ -22,9 +22,10 @@ namespace UI
 	{
 		public MainWindow()
 		{
-			InitializeComponent();
 		}
-
+		private void AnimeList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+		{
+		}
 
 	}
 }

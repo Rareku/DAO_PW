@@ -1,7 +1,3 @@
-C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
-C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\MainWindow.g.cs
-C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\App.g.cs
-C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\UI_MarkupCompile.cache
 C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\bin\Debug\UI.exe.config
 C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\bin\Debug\UI.exe
 C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\bin\Debug\UI.pdb
@@ -13,9 +9,15 @@ C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\
 C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\bin\Debug\BL.pdb
 C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\bin\Debug\INTERFACES.pdb
 C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\bin\Debug\ViewModel.pdb
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\App.g.cs
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\UI_MarkupCompile.cache
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\UI_MarkupCompile.lref
 C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\MainWindow.baml
 C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\UI.g.resources
 C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\UI.Properties.Resources.resources
 C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\UI.csproj.GenerateResource.Cache
 C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\UI.exe
 C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\UI.pdb
+C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\MainWindow.g.cs

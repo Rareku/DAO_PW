@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ViewModel;assembly=ViewModel"
+        xmlns:local="clr-namespace:UI"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
 	<Window.Resources>
@@ -13,7 +13,8 @@
 					<ControlTemplate>
 						<DockPanel LastChildFill="True">
 							<ListBox DockPanel.Dock="Bottom" Name="lstErrors"
-                                     ItemsSource="{Binding ElementName=ErrTextBox,Path=AdornedElement.(Validation.Errors)}">
+                                     ItemsSource="{Binding ElementName=ErrTextBox,Path=AdornedElement.(Validation.Errors)}"
+									 SelectionChanged="AnimeList_SelectionChanged">
 								<ListBox.ItemTemplate>
 									<DataTemplate>
 										<TextBlock Text="{Binding ErrorContent}" Foreground="Red"/>
@@ -44,7 +45,7 @@
 		<local:AnimeListViewModel/>
 	</Window.DataContext>
 	<DockPanel LastChildFill="True">
-		<ListBox DockPanel.Dock="Left" Name="lstBox" ItemsSource="{Binding Animes}"   >
+		<ListBox DockPanel.Dock="Left" Name="lstBox" ItemsSource="{Binding Animes}" SelectedValue="{Binding EditedAnime}" >
 			<ListBox.ItemTemplate>
 				<DataTemplate>
 					<StackPanel Orientation="Horizontal">
@@ -56,9 +57,8 @@
 			</ListBox.ItemTemplate>
 		</ListBox>
 		<StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal">
-			<Button Command="{Binding FilterCommand}">Filter</Button>
-			<TextBox MinWidth="80" Text="{Binding FilterString,Mode=TwoWay}"></TextBox>
-			<Button Command="{Binding CreateNewAnimeCommand}">Create Car</Button>
+			<Button Command="{Binding CreateNewAnimeCommand}" Content="Create Car"/>
+			<Button Command="{Binding DeleteAnimeCommand}">Delete</Button>
 		</StackPanel>
 		<Grid>
 			<Grid.RowDefinitions>
