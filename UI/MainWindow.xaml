@@ -82,7 +82,7 @@
 				<TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Name, ValidatesOnNotifyDataErrors=True}"  MinWidth="100"></TextBox>
 				<Label Grid.Row="2">Day</Label>
 				<TextBox Grid.Row="2" Grid.Column="1" Text="{Binding Day, ValidatesOnNotifyDataErrors=True}"  MinWidth="100"></TextBox>
-				<Label Grid.Row="3">Length</Label>
+				<Label Grid.Row="3">Number of episodes</Label>
 				<TextBox Grid.Row="3" Grid.Column="1" Text="{Binding Length, ValidatesOnNotifyDataErrors=True}"  MinWidth="100"></TextBox>
 			</Grid>
 		</Grid>
