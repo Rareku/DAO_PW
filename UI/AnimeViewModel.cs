@@ -7,7 +7,7 @@ using System.ComponentModel;
 using static INTERFACES.Interfaces;
 using System.ComponentModel.DataAnnotations;
 
-namespace ViewModel
+namespace UI
 { 
 	public class AnimeViewModel : ViewModelBase
 	{
@@ -20,7 +20,7 @@ namespace ViewModel
 
 
 		[Required(ErrorMessage = "Anime must have a name")]
-		[StringLength(10, MinimumLength = 3, ErrorMessage = "długość nazwy musi być...")]
+		[StringLength(10, MinimumLength = 3, ErrorMessage = "Length must me in range 3-10")]
 		public string Name
 		{
 			get
@@ -36,7 +36,7 @@ namespace ViewModel
 			}
 		}
 
-
+		[Range(1, 7, ErrorMessage = "Day must me in rande 1-7")]
 		public int Day
 		{
 			get
@@ -53,7 +53,7 @@ namespace ViewModel
 			}
 		}
 
-
+		[Range(0, int.MaxValue, ErrorMessage = "Episode nuber cannot be negative.")]
 		public int Length
 		{
 			get

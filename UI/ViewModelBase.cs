@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Collections;
 using System.ComponentModel;
 
-namespace ViewModel
+namespace UI
 {
 	public class ViewModelBase : INotifyPropertyChanged, INotifyDataErrorInfo
 	{

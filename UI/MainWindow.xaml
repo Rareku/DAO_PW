@@ -57,7 +57,7 @@
 			</ListBox.ItemTemplate>
 		</ListBox>
 		<StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal">
-			<Button Command="{Binding CreateNewAnimeCommand}" Content="Create Anime"/>
+			<Button Command="{Binding CreateNewAnimeCommand}" Content="Create Car"/>
 			<Button Command="{Binding DeleteAnimeCommand}">Delete</Button>
 		</StackPanel>
 		<Grid>

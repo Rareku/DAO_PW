@@ -8,8 +8,9 @@ using System.Collections.ObjectModel;
 using System.Windows.Input;
 using System.Windows.Data;
 using static INTERFACES.Interfaces;
+using System.Windows.Controls;
 
-namespace ViewModel
+namespace UI
 {
     public class AnimeListViewModel : ViewModelBase
 	{
@@ -38,10 +39,12 @@ namespace ViewModel
 			_animes = new ObservableCollection<AnimeViewModel>();
 			_view = (ListCollectionView)CollectionViewSource.GetDefaultView(_animes);
 			GetAllCars();
-			_filterCommand = new RelayCommand(param => this.FilterData());
-			_createNewAnimeCommand = new RelayCommand(param => this.CreateNewCar(), param => this.CanCreateCar());
-			FilterString = "";
+			_saveCommand = new RelayCommand(param => this.SaveData(), param => this.CanEditeAnime());
+			_createNewAnimeCommand = new RelayCommand(param => this.CreateNewAnime(), param => this.CanCreateAnime());
+			_deleteAnimeCommand = new RelayCommand(param => this.DeleteAnime());
 		}
+
+
 
 		private void GetAllCars()
 		{
@@ -51,32 +54,28 @@ namespace ViewModel
 			}
 		}
 
-		public string FilterString
-		{ get; set; }
 
-		private ICommand _filterCommand;
+		private ICommand _saveCommand;
 
-		public ICommand FilterCommand
+		public ICommand SaveCommand
 		{
 			get
 			{
-				return _filterCommand;
+				return _saveCommand;
 			}
 		}
 
 
-		private void FilterData()
+		private void SaveData()
 		{
-			if (!String.IsNullOrEmpty(FilterString))
-			{
-				_view.Filter = (c) => ((AnimeViewModel)c).Name.Contains(FilterString);
-			}
-			else
-			{
-				_view.Filter = null;
-			}
+			_animes = Animes;
+			EditedAnime = null;
+			_editedAnime = null;
 		}
-
+		public void SetEditedAnime(AnimeViewModel anime)
+		{
+			EditedAnime = anime;
+		}
 		private AnimeViewModel _editedAnime;
 		public AnimeViewModel EditedAnime
 		{
@@ -90,7 +89,31 @@ namespace ViewModel
 				_editedAnime = value;
 				OnPropertyChanged(nameof(EditedAnime));
 			}
+		}
+		private bool CanEditeAnime()
+		{
+			if (EditedAnime == null)
+				return false;
+			if (!EditedAnime.HasErrors)
+				return true;
+			return false;
+		}
+		private RelayCommand _deleteAnimeCommand;
+
+		public RelayCommand DeleteAnimeCommand
+		{
+			get
+			{
+				return _deleteAnimeCommand;
 			}
+		}
+
+
+		private void DeleteAnime()
+		{
+			Animes.Remove(EditedAnime);
+			EditedAnime = null;
+		}
 
 
 		private RelayCommand _createNewAnimeCommand;
@@ -101,19 +124,21 @@ namespace ViewModel
 			{
 				return _createNewAnimeCommand;
 			}
-			}
+		}
 
 
-		private void CreateNewCar()
+		private void CreateNewAnime()
 		{
+			
 			EditedAnime = new AnimeViewModel(new AnimeNamespace.Anime());
 			EditedAnime.Name = "";
+			Animes.Add(EditedAnime);
 		}
-		private bool CanCreateCar()
+		private bool CanCreateAnime()
 		{
 			if (this.EditedAnime == null)
 				return true;
-			else if (!this.EditedAnime.HasErrors)
+			if (!EditedAnime.HasErrors)
 				return true;
 
 			return false;
