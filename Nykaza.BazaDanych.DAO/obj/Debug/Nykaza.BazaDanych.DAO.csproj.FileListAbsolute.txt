@@ -1,0 +1,12 @@
+C:\Users\mnykaza\Desktop\dd\DAO_PW\Nykaza.BazaDanych.DAO\bin\Debug\Nykaza.BazaDanych.DAO.exe.config
+C:\Users\mnykaza\Desktop\dd\DAO_PW\Nykaza.BazaDanych.DAO\bin\Debug\Nykaza.BazaDanych.DAO.exe
+C:\Users\mnykaza\Desktop\dd\DAO_PW\Nykaza.BazaDanych.DAO\bin\Debug\Nykaza.BazaDanych.DAO.pdb
+C:\Users\mnykaza\Desktop\dd\DAO_PW\Nykaza.BazaDanych.DAO\bin\Debug\Anime.dll
+C:\Users\mnykaza\Desktop\dd\DAO_PW\Nykaza.BazaDanych.DAO\bin\Debug\BL.dll
+C:\Users\mnykaza\Desktop\dd\DAO_PW\Nykaza.BazaDanych.DAO\bin\Debug\INTERFACES.dll
+C:\Users\mnykaza\Desktop\dd\DAO_PW\Nykaza.BazaDanych.DAO\bin\Debug\Anime.pdb
+C:\Users\mnykaza\Desktop\dd\DAO_PW\Nykaza.BazaDanych.DAO\bin\Debug\BL.pdb
+C:\Users\mnykaza\Desktop\dd\DAO_PW\Nykaza.BazaDanych.DAO\bin\Debug\INTERFACES.pdb
+C:\Users\mnykaza\Desktop\dd\DAO_PW\Nykaza.BazaDanych.DAO\obj\Debug\Nykaza.BazaDanych.DAO.csprojResolveAssemblyReference.cache
+C:\Users\mnykaza\Desktop\dd\DAO_PW\Nykaza.BazaDanych.DAO\obj\Debug\Nykaza.BazaDanych.DAO.exe
+C:\Users\mnykaza\Desktop\dd\DAO_PW\Nykaza.BazaDanych.DAO\obj\Debug\Nykaza.BazaDanych.DAO.pdb

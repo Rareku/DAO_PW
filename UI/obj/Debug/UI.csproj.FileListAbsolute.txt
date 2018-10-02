@@ -21,3 +21,6 @@ C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\
 C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\UI.exe
 C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\UI.pdb
 C:\Users\mnykaza\Documents\Visual Studio 2015\Projects\Nykaza.BazaDanych.DAO\UI\obj\Debug\MainWindow.g.cs
+C:\Users\mnykaza\Desktop\dd\DAO_PW\UI\bin\Debug\UI.exe.config
+C:\Users\mnykaza\Desktop\dd\DAO_PW\UI\obj\Debug\UI.exe
+C:\Users\mnykaza\Desktop\dd\DAO_PW\UI\obj\Debug\UI.pdb
